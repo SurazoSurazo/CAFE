@@ -1,0 +1,160 @@
+
+
+body {
+  background-color: #f2ece1;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.wrapper {
+  /* max-width: 1000px; */
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+#header {
+  display: flex;
+  background-color: #6a3906;
+  justify-content: space-between;
+  padding: 20px 0px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#header p {
+  color: white;
+  padding-left: 20px;
+
+}
+
+#header .navi {
+  display: flex;
+}
+
+#header .navi li {
+  margin-left: 40px;
+}
+
+#header .navi a {
+  color: #d6b8a8;
+}
+
+
+#concept {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  margin: 100px 0px ;
+}
+
+#concept .img {
+  width: 50%;
+}
+
+#concept .detail {
+  text-align: center;
+  padding-left: 40px;
+}
+
+#concept .catchphrase {
+  font-weight: bold;
+}
+
+#menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.menu-card {
+  width: 260px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.menu-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.menu-content h3 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.menu-content .desc {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.menu-content .price {
+  font-weight: bold;
+  color: #6a3906;
+}
+
+#access {
+  background-color: #fff;
+  padding: 60px 0;
+  margin-top: 80px;
+}
+
+#access .inner {
+  max-width: 800px;
+}
+
+#access .info {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  row-gap: 15px;
+  column-gap: 20px;
+}
+
+#access dt {
+  font-weight: bold;
+  color: #6a3906;
+}
+
+#access dd {
+  margin: 0;
+}
+
+#footer {
+  background-color: #6a3906;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+  font-size: 14px;
+}
+
+.map {
+  margin-top: 50px;
+}
